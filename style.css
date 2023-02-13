@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgba(0, 0, 0, 0.819);
+}
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100vh;
+  }
+
+header{
+    
+    display: flex;
+    height: 40px ;
+    background-color: rgba(3, 245, 3, 0.434);
+    padding: 5px;
+}
+
+#evan{
+    margin: 0px 40px 0px 20px ;
+   
+}
+#dev{
+    margin: auto;
+}
+#container{
+    display:flex ;
+    margin-top: 10px;
+    background-color: rgba(5, 7, 7, 0.279);
+    height: 600px;
+}
+#container-img{
+    height: 350px;
+    width: 350px;
+    margin: auto 15px auto auto;;
+    
+    background-color: aqua;
+}
+#container-texto{
+    height: 350px;
+    width: 350px;
+    margin: auto auto auto 15px;
+    
+    background-color: aqua;
+}
+.card{
+    
+    border: 0px;
+    margin:40px  auto;
+   
+}
+#conteinercard{
+    display: block ;
+    
+}
+@media only screen and (min-width: 1200px){
+    #conteinercard{
+        display: flex ;
+        
+    }
+}
