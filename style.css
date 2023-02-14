@@ -39,16 +39,23 @@ header{
     height: 350px;
     width: 350px;
     margin: auto 15px auto auto;;
-    
+    padding: 20px;
     background-color: aqua;
 }
+#container-img > img{
+    margin: auto;
+   text-align: center;
+}
 #container-texto{
+    padding:10px ;
     height: 350px;
     width: 350px;
     margin: auto auto auto 15px;
-    
+    border: solid;
+    text-align: center;
     background-color: aqua;
 }
+
 .card{
     
     border: 0px;
