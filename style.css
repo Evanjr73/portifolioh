@@ -36,11 +36,12 @@ header{
     height: 600px;
 }
 #container-img{
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     margin: auto 15px auto auto;;
     padding: 20px;
-    background-color: aqua;
+    /* background-color: aqua; */
+    color: rgba(15, 140, 15, 0.801);
 }
 #container-img > img{
     margin: auto;
@@ -48,19 +49,29 @@ header{
 }
 #container-texto{
     padding:10px ;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     margin: auto auto auto 15px;
     border: solid;
     text-align: center;
-    background-color: aqua;
+    /* background-color: aqua; */
+    color: rgba(15, 140, 15, 0.801);
 }
-
+#conatainer-separador{
+    text-align: center;
+    color:rgba(15, 140, 15, 0.801) ;
+    background-color: rgba(0, 0, 0, 0.656);
+    
+}
 .card{
     
-    border: 0px;
+    border: 0px ;
+    
     margin:40px  auto;
    
+}
+.card-img-top{
+    max-height: 300px;
 }
 #conteinercard{
     display: block ;
