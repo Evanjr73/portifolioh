@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>PORTIFOLIO</title>
 </head>
 <body>
@@ -25,23 +26,29 @@
     <div id="container">
         <div id="container-img">
           <h3>Evanderson Junior</h3>
-          <img src="img/perfil2.jpeg" alt="" width="70%" >
+          <!-- <img src="img/perfil2.jpeg" alt="" width="70%" > -->
           <h2>DEV FRONT-END</h2>
-          
+          <p id="sobre"></p>
+          <p id="sobre2"></p>
+          <button class="btnn" onclick="sob()">sobre min</button>
         </div>
+
+
+
+
+        
         <div id="container-texto">
           <h2>SKILLS </h2>
-          <h4>React</h4>
-          <h4>next.js</h4>
-          <h4>typescript</h4>
-          <h4>javascript</h4>
-          <h4>CSS</h4>
-          <h4>HTML</h4>
-          <h4>bootstrap</h4>
-          <h4>python</h4>
-          
+          <h2>FRAMEWORKS</h2>
+          <p id="skills"></p>
+          <button onclick="skil()" class="btnn">clique</button>
+         <h2>LINGUAGENS</h2>
+          <p id="skills2"></p>
+          <button onclick="skil2()" class="btnn">clique</button>
 
-
+          <h2>VERCIONAMENTO</h2>
+          <p id="skills3"></p>
+          <button onclick="skil3()" class="btnn">clique</button>
           
         </div>
         
