@@ -78,10 +78,10 @@ header{
     
 }
 #sobre{
-    font-size: 15px;
+    font-size: 12px;
 }
 #sobre2{
-    font-size: 15px;
+    font-size: 12px;
 }
 .btnn{
     font-size: small;
@@ -119,5 +119,11 @@ footer{
     #conteinercard{
         display: flex ;
         
+    }
+    #sobre{
+        font-size: 15px;
+    }
+    #sobre2{
+        font-size: 15px;
     }
 }
