@@ -18,3 +18,23 @@ function sob(){
     return
 
 }
+
+function voltarsob(){
+    let k = document.getElementById('sobre').innerHTML=" "
+    let t = document.getElementById('sobre2').innerHTML=" "
+    return
+}
+
+
+function voltar(){
+    let k = document.getElementById('skills').innerHTML=" "
+    return
+}
+function voltar1(){
+    let k = document.getElementById('skills2').innerHTML=" "
+    return
+}
+function voltar2(){
+    let k = document.getElementById('skills3').innerHTML=" "
+    return
+}
