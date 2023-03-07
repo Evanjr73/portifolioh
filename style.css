@@ -3,6 +3,9 @@
     padding: 0;
 
 }
+p{
+    color: antiquewhite;
+}
 body{
     /* background-color: rgba(0, 0, 0, 0.819); */
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.801), rgba(1, 3, 0, 0.833));
@@ -53,13 +56,16 @@ header{
     background-color: rgba(5, 7, 7, 0.279);
     height: 600px;
 }
+
 #container-img{
-    height: 350px;
-    width: 350px;
-    margin: 47px 15px auto auto;;
+    height: 450px;
+    width: 450px;
+    margin: 70px 15px auto auto;;
     padding: 20px;
     /* background-color: aqua; */
     color: rgba(15, 140, 15, 0.801);
+    border-radius: 5px;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.2)
 }
 #container-img > img{
     margin: auto;
@@ -87,11 +93,22 @@ header{
     font-size: small;
     background-color: rgba(0, 0, 0, 0.153);
 }
-#conatainer-separador{
+
+.conatainer-separador{
     text-align: center;
     color:rgba(27, 255, 27, 0.994) ;
     background-color: rgba(0, 0, 0, 0.656);
+    margin-top: 10px;
     
+}
+
+#container-detexto{
+    width: 700px;
+    color: antiquewhite;
+    margin: auto;
+    font-size: 25px;
+    padding: 5px;
+
 }
 .card{
     
