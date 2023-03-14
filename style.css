@@ -97,14 +97,15 @@ header{
 }
 .btnn{
     font-size: small;
-    background-color: rgba(5, 124, 235, 0.401);
+    background-color: rgba(60, 255, 1, 0.648);
     border-radius: 2px;
+    width: 80px;
 }
 .btnn:hover{
     font-size:larger;
-    background-color: rgba(212, 227, 241, 0.401);
+    background-color: rgba(41, 255, 17, 0.968);
     border-radius: 2px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 .conatainer-separador{
     text-align: center;
