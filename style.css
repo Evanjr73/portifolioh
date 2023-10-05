@@ -324,6 +324,7 @@ footer{
         
         /* background-color: aqua; */
         color: rgba(15, 140, 15, 0.801);
+        text-align: center;
     
         
         
@@ -540,17 +541,19 @@ footer{
     #container-img{
         height: 65vh;
         width: 50vh;
-        margin: 0px 15px auto auto;
+        margin:  auto;
         padding: 30px;
         /* background-color: aqua; */
         color: rgba(15, 140, 15, 0.801);
         border-radius: 5px;
         box-shadow:10px 10px 10px rgba(0, 0, 0, 0.039);
+        text-align: center;
         
     }
     #container-img > img{
         
         margin: auto;
+        
         
        text-align: center;
        border-radius: 5px;
@@ -563,7 +566,7 @@ footer{
         padding:10px ;
         height: 50vh;
         width: 40vh;
-       
+        margin: auto;
         border: solid;
         text-align: center;
         /* background-color: aqua; */
