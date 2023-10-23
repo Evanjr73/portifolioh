@@ -10,7 +10,7 @@ body{
     /* background-color: rgba(0, 0, 0, 0.819); */
     background-image: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 0, 0, 0.801), rgba(1, 3, 0, 0.833));
     background-size: 500% 100%;
-    animation: degrade-animeado 8s infinite alternate-reverse;
+    animation: degrade-animeado 10s infinite alternate-reverse;
 }
 .contat{
     height: 25px;
@@ -174,7 +174,7 @@ header>#cotato{
     max-height: 300px;
 }
 #conteinercard{
-    display: block ;
+    display: flex;
     
 }
 footer{
